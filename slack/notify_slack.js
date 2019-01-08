@@ -9,7 +9,7 @@ const getSlackClient = require('./get_slack_client');
     token: <Slack Bot Authentication Token String>
   }
 */
-module.exports = ({text}, cbk) => {
+module.exports = ({text, token}, cbk) => {
   return asyncAuto({
     // Check arguments
     validate: cbk => {
