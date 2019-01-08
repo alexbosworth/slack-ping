@@ -6,7 +6,7 @@ Example:
 
 ```javascript
 
-    const {notifySlack} = require('slack-ping);
+    const {notifySlack} = require('slack-ping');
     
     const text = 'Ping';
     const token = process.env.SECRET_SLACK_BOT_TOKEN;
