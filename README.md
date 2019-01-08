@@ -4,6 +4,8 @@ Send a text ping notification to Slack.
 
 Example:
 
+```javascript
+
     const {notifySlack} = require('slack-ping);
     
     const text = 'Ping';
@@ -16,4 +18,6 @@ Example:
       
       return;
     });
+
+```
 
