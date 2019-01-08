@@ -1,0 +1,20 @@
+{
+  "author": "Alex Bosworth",
+  "bugs": {
+    "url": "https://github.com/alexbosworth/slack-ping/issues"
+  },
+  "dependencies": {
+    "@slack/client": "4.8.0",
+    "async": "2.6.1"
+  },
+  "description": "Minimal notification pinger for Slack",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "slack-ping",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexbosworth/slack-ping.git"
+  },
+  "version": "1.0.0"
+}
+
