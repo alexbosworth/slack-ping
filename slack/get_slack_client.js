@@ -22,7 +22,7 @@ module.exports = async ({token}, cbk) => {
   }
 
   if (!!clients[token]) {
-    return cbk(null, clients[token].web);
+    return cbk(null, clients[token]);
   }
 
   const web = new WebClient(token);
