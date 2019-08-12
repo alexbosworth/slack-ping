@@ -1,4 +1,4 @@
-const {WebClient} = require('@slack/client');
+const {WebClient} = require('@slack/web-api');
 
 const {authEvent} = require('./constants');
 
