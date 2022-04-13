@@ -5,7 +5,7 @@
   },
   "dependencies": {
     "@slack/web-api": "5.9.0",
-    "async": "3.2.0"
+    "async": "3.2.2"
   },
   "description": "Minimal notification pinger for Slack",
   "license": "MIT",
