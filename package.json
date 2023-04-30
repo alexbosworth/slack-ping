@@ -4,7 +4,7 @@
     "url": "https://github.com/alexbosworth/slack-ping/issues"
   },
   "dependencies": {
-    "@slack/web-api": "5.9.0",
+    "@slack/web-api": "5.15.0",
     "async": "3.2.2"
   },
   "description": "Minimal notification pinger for Slack",
